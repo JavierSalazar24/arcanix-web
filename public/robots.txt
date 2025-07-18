@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://arcanix.com.mx/sitemap.xml
