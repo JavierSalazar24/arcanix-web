@@ -1,7 +1,7 @@
-export const HeroSection = ({ scrollToSection }) => {
+export const HeroSectionDeportes = ({ scrollToSection }) => {
   return (
     <section className='pt-16 min-h-screen flex items-center relative overflow-hidden'>
-      <div className='absolute inset-0 bg-gradient-to-br from-indigo-900 via-purple-900 to-indigo-900'></div>
+      <div className='absolute inset-0 bg-gradient-to-br from-slate-900 via-rose-900 to-slate-900'></div>
       <div className='absolute inset-0 opacity-20'>
         <div
           className='absolute inset-0'
@@ -14,36 +14,36 @@ export const HeroSection = ({ scrollToSection }) => {
 
       <div className='relative max-w-7xl mx-auto px-4 pt-4 sm:px-6 lg:px-8 text-center'>
         <div className='animate-fade-in-up'>
-          <div className='inline-flex items-center px-4 py-2 bg-indigo-500/20 backdrop-blur-sm rounded-full text-indigo-200 text-sm font-medium mb-8 border border-indigo-400/30'>
-            <span className='w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse'></span>
-            Soluciones tecnológicas especializadas por industria
+          <div className='inline-flex items-center px-4 py-2 bg-rose-500/20 backdrop-blur-sm rounded-full text-rose-200 text-sm font-medium mb-8 border border-rose-400/30'>
+            <span className='w-2 h-2 bg-rose-400 rounded-full mr-2 animate-pulse'></span>
+            Sistema para clubes deportivos
           </div>
 
           <h1 className='text-3xl md:text-7xl font-bold text-white mb-6 leading-tight'>
-            Software{' '}
-            <span className='bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent'>
-              especializado
+            El{' '}
+            <span className='bg-gradient-to-r from-rose-400 to-red-400 bg-clip-text text-transparent'>
+              software definitivo
             </span>
             <br />
-            para tu industria
+            para equipos deportivos
           </h1>
 
           <p className='text-base md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed'>
-            Desarrollamos sistemas únicos para empresas de seguridad y clubes
-            deportivos.
-            <span className='text-indigo-400 font-semibold'>
-              {' '}
-              Código fuente incluido, sin mensualidades.
+            Gestiona jugadores, finanzas, inventario y partidos en una sola
+            plataforma.
+            <br />
+            <span className='text-rose-400 font-semibold text-xl md:text-3xl'>
+              PWA incluida + Portal para tutores.
             </span>
           </p>
 
-          <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-12'>
+          <div className='flex flex-col sm:flex-row gap-4 justify-center items-center mb-10'>
             <button
-              onClick={() => scrollToSection('soluciones')}
-              className='cursor-pointer group bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-indigo-500/25'
+              onClick={() => scrollToSection('demo')}
+              className='cursor-pointer group bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-700 hover:to-red-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl shadow-rose-500/25'
             >
               <span className='flex items-center text-sm md:text-base'>
-                Ver nuestras soluciones
+                Probar demo gratis
                 <svg
                   className='w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform'
                   fill='none'
@@ -61,17 +61,17 @@ export const HeroSection = ({ scrollToSection }) => {
             </button>
 
             <button
-              onClick={() => scrollToSection('contacto')}
-              className='cursor-pointer group bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-bold py-4 px-8 rounded-xl text-sm md:text-lg transition-all duration-300 border border-white/20 hover:border-white/40'
+              onClick={() => scrollToSection('precio')}
+              className='cursor-pointer group bg-rose-500/10 backdrop-blur-sm hover:bg-rose-500/20 text-white font-bold py-4 px-8 rounded-xl text-sm md:text-lg transition-all duration-300 border border-rose-400/30 hover:border-rose-400/50'
             >
-              Contactar ahora
+              Ver precio
             </button>
           </div>
 
           <div className='flex flex-wrap justify-center items-center gap-4 md:gap-8 text-gray-400 text-sm pb-4 xl:pb-0'>
             <div className='flex items-center'>
               <svg
-                className='w-5 h-5 text-green-400 mr-2'
+                className='w-5 h-5 text-rose-400 mr-2'
                 fill='currentColor'
                 viewBox='0 0 20 20'
               >
@@ -81,11 +81,11 @@ export const HeroSection = ({ scrollToSection }) => {
                   clipRule='evenodd'
                 />
               </svg>
-              Desarrollo especializado
+              Instalación en 24 horas
             </div>
             <div className='flex items-center'>
               <svg
-                className='w-5 h-5 text-green-400 mr-2'
+                className='w-5 h-5 text-rose-400 mr-2'
                 fill='currentColor'
                 viewBox='0 0 20 20'
               >
@@ -95,11 +95,11 @@ export const HeroSection = ({ scrollToSection }) => {
                   clipRule='evenodd'
                 />
               </svg>
-              Código fuente incluido
+              PWA descargable
             </div>
             <div className='flex items-center'>
               <svg
-                className='w-5 h-5 text-green-400 mr-2'
+                className='w-5 h-5 text-rose-400 mr-2'
                 fill='currentColor'
                 viewBox='0 0 20 20'
               >
@@ -109,15 +109,15 @@ export const HeroSection = ({ scrollToSection }) => {
                   clipRule='evenodd'
                 />
               </svg>
-              Soporte especializado
+              Portal de tutores incluido
             </div>
           </div>
         </div>
       </div>
 
       {/* Floating elements */}
-      <div className='absolute top-20 left-10 w-20 h-20 bg-indigo-500/20 rounded-full blur-xl animate-pulse'></div>
-      <div className='absolute bottom-20 right-10 w-32 h-32 bg-purple-500/20 rounded-full blur-xl animate-pulse delay-1000'></div>
+      <div className='absolute top-20 left-10 w-20 h-20 bg-rose-500/20 rounded-full blur-xl animate-pulse'></div>
+      <div className='absolute bottom-20 right-10 w-32 h-32 bg-red-500/20 rounded-full blur-xl animate-pulse delay-1000'></div>
     </section>
   )
 }

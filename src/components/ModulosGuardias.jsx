@@ -86,7 +86,7 @@ const modules = [
   }
 ]
 
-export const Modulos = () => {
+export const ModulosGuardias = () => {
   return (
     <section
       id='modulos'
@@ -132,7 +132,7 @@ export const Modulos = () => {
           ))}
 
           {/* Módulo especial para el séptimo */}
-          <div className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 md:col-span-2 lg:col-span-1'>
+          <div className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 md:col-span-2 lg:col-span-3'>
             <div className='text-4xl mb-4'>{modules[6].icon}</div>
             <h3 className='text-xl font-bold text-white mb-4'>
               {modules[6].title}

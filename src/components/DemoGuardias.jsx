@@ -1,4 +1,4 @@
-export const Demo = () => {
+export const DemoGuardias = () => {
   return (
     <section
       id='demo'
