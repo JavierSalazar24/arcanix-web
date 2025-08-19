@@ -1,5 +1,5 @@
 import deportes from '../assets/deportes.png'
-import video_demo from '../assets/video_demo.mp4'
+import video_demo from '../assets/video_deportes.mp4'
 
 export const GaleriaDeportes = () => {
   return (

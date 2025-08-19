@@ -1,0 +1,18 @@
+# Desactiva MultiViews (evita conflictos con rutas "limpias")
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Deja pasar archivos y directorios reales
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # (Opcional) No tocar la API si vive en el mismo host
+  RewriteCond %{REQUEST_URI} !^/api/
+
+  # Fallback SPA: todo lo demás => index.html
+  RewriteRule . /index.html [L]
+</IfModule>

@@ -22,7 +22,7 @@ const solutions = [
     gradient: 'from-blue-600 to-purple-600',
     bgGradient: 'from-blue-50 to-purple-50',
     link: '/guardias',
-    demo: 'https://admin.arcanix.com.mx/'
+    demo: 'https://guardias.arcanix.com.mx/'
   },
   {
     id: 'sports',
@@ -78,7 +78,7 @@ export const Soluciones = () => {
               onMouseLeave={() => setHoveredCard(null)}
             >
               {/* Header */}
-              <div className='flex items-center justify-between mb-6 flex-col'>
+              <div className='flex items-center justify-between mb-6 flex-col sm:flex-row'>
                 <div className='flex items-center space-x-4 flex-col sm:flex-row text-center sm:text-left gap-3 sm:gap-0'>
                   <div
                     className={`text-5xl group-hover:scale-110 transition-transform duration-300`}

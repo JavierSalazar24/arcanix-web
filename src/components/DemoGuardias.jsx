@@ -28,13 +28,13 @@ export const DemoGuardias = () => {
             <div className='flex items-center justify-between flex-col sm:flex-row'>
               <span className='text-gray-300'>URL:</span>
               <a
-                href='https://admin.arcanix.com.mx'
+                href='https://guardias.arcanix.com.mx'
                 target='_blank'
                 title='URL de la la demo de Arcanix'
                 rel='noopener noreferrer'
                 className='text-blue-400 font-mono hover:underline text-sm sm:text-base'
               >
-                https://admin.arcanix.com.mx
+                https://guardias.arcanix.com.mx
               </a>
             </div>
             <div className='flex items-center justify-between flex-col sm:flex-row'>
@@ -53,7 +53,7 @@ export const DemoGuardias = () => {
         </div>
 
         <a
-          href='https://admin.arcanix.com.mx'
+          href='https://guardias.arcanix.com.mx'
           target='_blank'
           title='Acceder a la demo de Arcanix'
           rel='noopener noreferrer'
