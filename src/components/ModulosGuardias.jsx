@@ -90,7 +90,7 @@ export const ModulosGuardias = () => {
   return (
     <section
       id='modulos'
-      className='py-14 bg-gradient-to-r from-purple-600 to-blue-600'
+      className='py-17 bg-gradient-to-r from-purple-600 to-blue-600'
     >
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-16'>
@@ -106,7 +106,7 @@ export const ModulosGuardias = () => {
           {modules.slice(0, 6).map((module, index) => (
             <div
               key={index}
-              className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20'
+              className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2'
             >
               <div className='text-4xl mb-4'>{module.icon}</div>
               <h3 className='text-xl font-bold text-white mb-4'>
@@ -132,7 +132,7 @@ export const ModulosGuardias = () => {
           ))}
 
           {/* Módulo especial para el séptimo */}
-          <div className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 md:col-span-2 lg:col-span-3'>
+          <div className='bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 md:col-span-2 lg:col-span-3 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2'>
             <div className='text-4xl mb-4'>{modules[6].icon}</div>
             <h3 className='text-xl font-bold text-white mb-4'>
               {modules[6].title}

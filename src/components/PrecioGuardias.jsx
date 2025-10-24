@@ -2,7 +2,7 @@ export const PrecioGuardias = () => {
   return (
     <section
       id='precio'
-      className='py-14 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-900 relative overflow-hidden'
+      className='py-17 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-900 relative overflow-hidden'
     >
       <div className='absolute inset-0 opacity-20'>
         <div
@@ -85,11 +85,11 @@ export const PrecioGuardias = () => {
               ))}
             </div>
 
-            <div className='bg-gradient-to-r from-red-500/20 to-orange-500/20 border border-red-400/30 rounded-xl p-4'>
+            {/* <div className='bg-gradient-to-r from-red-500/20 to-orange-500/20 border border-red-400/30 rounded-xl p-4'>
               <p className='text-red-300 font-bold'>
                 ⏰ Solo quedan 3 espacios disponibles
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

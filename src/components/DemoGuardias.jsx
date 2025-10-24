@@ -2,7 +2,7 @@ export const DemoGuardias = () => {
   return (
     <section
       id='demo'
-      className='py-14 bg-gradient-to-br from-gray-900 to-gray-800'
+      className='py-17 bg-gradient-to-br from-gray-900 to-gray-800'
     >
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
         <div className='mb-12'>

@@ -53,7 +53,7 @@ export const Soluciones = () => {
   const [hoveredCard, setHoveredCard] = useState(null)
 
   return (
-    <section id='soluciones' className='py-17 bg-white'>
+    <section id='softwares' className='py-17 bg-white'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-20'>
           <div className='inline-flex items-center px-4 py-2 bg-indigo-100 rounded-full text-indigo-800 text-sm font-medium mb-6'>

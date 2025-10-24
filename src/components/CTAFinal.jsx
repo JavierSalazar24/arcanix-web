@@ -1,14 +1,25 @@
-export const CTAFinal = ({ scrollToSection }) => {
+export const CTAFinal = ({
+  scrollToSection,
+  title,
+  desc,
+  textButton,
+  bgFrom,
+  bgTo,
+  colorDesc,
+  points
+}) => {
   return (
-    <section className='py-14 bg-gradient-to-r from-indigo-600 to-purple-600'>
+    <section
+      className={`py-14 bg-gradient-to-r from-${bgFrom}-600 to-${bgTo}-600`}
+    >
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
         <h2 className='text-4xl md:text-5xl font-bold text-white mb-6'>
-          ¿Listo para <span className='text-yellow-300'>digitalizar</span> tu
+          ¿Listo para <span className='text-yellow-300'>{title}</span> tu
           empresa?
         </h2>
-        <p className='text-xl text-indigo-100 mb-12 max-w-3xl mx-auto'>
-          Agenda una videollamada sin costo y descubre cómo nuestras soluciones
-          pueden transformar tu negocio
+        <p className={`text-xl text-${colorDesc}-100 mb-12 max-w-3xl mx-auto`}>
+          Agenda una videollamada sin costo y te mostramos cómo Arcanix puede
+          revolucionar tu {desc}
         </p>
 
         <div className='flex flex-col sm:flex-row gap-6 justify-center items-center'>
@@ -36,25 +47,21 @@ export const CTAFinal = ({ scrollToSection }) => {
 
           <button
             onClick={() => scrollToSection('soluciones')}
-            className='cursor-pointer group bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 border border-white/30 hover:border-white/50'
+            className='cursor-pointer group bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 border border-white/30 hover:border-white/50 text-base sm:text-lg'
           >
-            Ver todas las soluciones
+            {textButton}
           </button>
         </div>
 
-        <div className='mt-12 flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-indigo-100'>
-          <div className='flex items-center'>
-            <span className='text-2xl mr-2'>⚡</span>
-            Desarrollo especializado
-          </div>
-          <div className='flex items-center'>
-            <span className='text-2xl mr-2'>💎</span>
-            Sin mensualidades
-          </div>
-          <div className='flex items-center'>
-            <span className='text-2xl mr-2'>🚀</span>
-            Soporte incluido
-          </div>
+        <div
+          className={`mt-12 flex flex-wrap justify-center items-center gap-4 sm:gap-8 text-${colorDesc}-100`}
+        >
+          {points.map((point, index) => (
+            <div className='flex items-center' key={index}>
+              <span className='text-2xl mr-2'>{point.icon}</span>
+              {point.text}
+            </div>
+          ))}
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@ import logo from '../assets/logo_blanco.png'
 
 export const Footer = ({ text }) => {
   return (
-    <footer id='contacto' className='py-14 bg-gray-900 text-white'>
+    <footer id='contacto' className='py-17 bg-gray-900 text-white'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl font-bold mb-8'>Contacta con nosotros</h2>

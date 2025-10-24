@@ -2,7 +2,7 @@ export const PrecioDeportes = () => {
   return (
     <section
       id='precio'
-      className='py-14 bg-gradient-to-br from-rose-950 via-red-950 to-rose-950 relative overflow-hidden'
+      className='py-17 bg-gradient-to-br from-rose-950 via-red-950 to-rose-950 relative overflow-hidden'
     >
       <div className='absolute inset-0 opacity-20'>
         <div

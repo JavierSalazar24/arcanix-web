@@ -101,7 +101,7 @@ export const ModulosDeportes = () => {
   return (
     <section
       id='modulos'
-      className='py-14 bg-gradient-to-r from-rose-950 via-red-950 to-rose-900'
+      className='py-17 bg-gradient-to-r from-rose-950 via-red-950 to-rose-900'
     >
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center mb-16'>
@@ -118,13 +118,13 @@ export const ModulosDeportes = () => {
           {modules.map((module, index) => (
             <div
               key={index}
-              className='bg-rose-600/20 backdrop-blur-sm p-8 rounded-2xl border border-rose-500/40'
+              className='bg-rose-600/20 backdrop-blur-sm p-8 rounded-2xl border border-rose-500/40 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2'
             >
               <div className='text-4xl mb-4'>{module.icon}</div>
               <h3 className='text-xl font-bold text-white mb-4'>
                 {module.title}
               </h3>
-              <p className='text-white mb-6 text-lg leading-relaxed'>
+              <p className='text-gray-200 mb-6 text-lg leading-relaxed'>
                 {module.description}
               </p>
               <div className='space-y-2'>
