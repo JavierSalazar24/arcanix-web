@@ -85,12 +85,6 @@ export const PrecioDeportes = () => {
                 </div>
               ))}
             </div>
-
-            <div className='bg-gradient-to-r from-rose-600/20 to-red-600/20 border border-rose-500/30 rounded-xl p-4'>
-              <p className='text-rose-300 font-bold'>
-                ⏰ Solo quedan 7 espacios disponibles
-              </p>
-            </div>
           </div>
         </div>
       </div>

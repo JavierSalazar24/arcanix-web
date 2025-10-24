@@ -1,0 +1,114 @@
+/* ====== HERO SECTION HOME ====== */
+from-indigo-900
+via-purple-900
+to-indigo-900
+bg-indigo-500/20
+text-indigo-200
+border-indigo-400/30
+bg-green-400
+from-indigo-400
+text-indigo-400
+hover:from-indigo-700
+shadow-indigo-500/25
+text-green-400
+bg-purple-500/20
+
+/* ====== BENEFICIOS HOME ====== */
+from-indigo-50
+to-purple-50
+bg-purple-100
+text-purple-800
+text-purple-600
+
+/* ====== CTAFINAL HOME ====== */
+from-indigo-600
+text-indigo-100
+
+
+/* ====== HERO SECTION GUARDIAS ====== */
+via-blue-900
+bg-blue-500/20
+text-blue-200
+border-blue-400/30
+bg-blue-400
+from-blue-400
+to-purple-400
+text-blue-400
+from-blue-600
+to-purple-600
+hover:from-blue-700
+hover:to-purple-700
+shadow-blue-500/25
+bg-white/10
+hover:bg-white/20
+border-white/30
+hover:border-white/40
+
+/* ====== BENEFICIOS GUARDIAS ====== */
+bg-blue-100
+text-blue-800
+text-blue-600
+
+/* ====== MODULOS SECTION DEPORTES ====== */
+from-purple-600
+via-blue-600
+text-yellow-300
+text-purple-100
+border-white/20
+bg-yellow-400
+
+/* ====== CLIENTES SECTION GUARDIAS ====== */
+/* ====== DEMO SECTION GUARDIAS ====== */
+/* ====== GALERIA SECTION GUARDIAS ====== */
+/* ====== PRECIO SECTION GUARDIAS ====== */
+
+
+/* ====== CTAFINAL GUARDIAS ====== */
+from-green-600
+to-blue-600
+text-green-100
+
+
+/* ====== HERO SECTION DEPORTES ====== */
+from-slate-900
+via-rose-900
+to-slate-900
+bg-rose-500/20
+text-rose-200
+border-rose-400/30
+bg-rose-400
+from-rose-400
+to-red-400
+text-rose-400
+from-rose-600
+hover:from-rose-700
+hover:to-red-700
+shadow-rose-500/25
+bg-rose-500/10
+hover:bg-rose-500/20
+border-rose-500/30
+hover:border-rose-500/40
+
+/* ====== BENEFICIOS DEPORTES ====== */
+from-gray-50
+to-white-50
+bg-red-100
+text-red-800
+text-red-600
+
+/* ====== MODULOS SECTION GUARDIAS ====== */
+from-rose-950
+via-red-950
+to-rose-900
+text-rose-500
+bg-rose-600/20
+border-rose-500/40
+
+/* ====== CLIENTES SECTION DEPORTES ====== */
+/* ====== DEMO SECTION DEPORTES ====== */
+/* ====== GALERIA SECTION DEPORTES ====== */
+/* ====== PRECIO SECTION DEPORTES ====== */
+
+/* ====== CTAFINAL DEPORTES ====== */
+from-orange-600
+to-red-600

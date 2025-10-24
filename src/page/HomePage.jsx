@@ -1,5 +1,4 @@
 import { Navbar } from '../components/Navbar'
-import { HeroSection } from '../components/HeroSection'
 import { Soluciones } from '../components/Soluciones'
 import { Beneficios } from '../components/Beneficios'
 import { CTAFinal } from '../components/CTAFinal'
@@ -9,6 +8,7 @@ import { Clientes } from '../components/Clientes'
 import { BENEFICIOS_HOME } from '../const/beneficios'
 import { CTA_HOME } from '../const/cta'
 import { HERO_POINTS_HOME } from '../const/hero'
+import { HeroSection } from '../components/HeroSection'
 
 const HomePage = () => {
   const scrollToSection = (sectionId) => {
@@ -52,12 +52,12 @@ const HomePage = () => {
       <Clientes />
       <CTAFinal
         scrollToSection={scrollToSection}
-        title='digitalizar'
-        desc='negocio'
-        textButton='Ver todas las soluciones'
         bgFrom='indigo'
         bgTo='purple'
         colorDesc='indigo'
+        title='digitalizar'
+        desc='negocio'
+        textButton='Ver todas las soluciones'
         points={CTA_HOME}
       />
       <Footer text='home' />

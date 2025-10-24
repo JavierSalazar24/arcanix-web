@@ -6,12 +6,13 @@ import { Footer } from '../components/Footer'
 import { GaleriaGuardias } from '../components/GaleriaGuardias'
 import { GuardiasSEO } from '../components/GuardiasSEO'
 import { HeroSection } from '../components/HeroSection'
-import { ModulosGuardias } from '../components/ModulosGuardias'
+import { Modulos } from '../components/Modulos'
 import { Navbar } from '../components/Navbar'
 import { PrecioGuardias } from '../components/PrecioGuardias'
 import { BENEFICIOS_GUARDIAS } from '../const/beneficios'
 import { CTA_GUARDIAS } from '../const/cta'
 import { HERO_POINTS_GUARDIAS } from '../const/hero'
+import { MODULOS_GUARDIAS } from '../const/modulos'
 
 const GuardiasPage = () => {
   const scrollToSection = (sectionId) => {
@@ -51,19 +52,33 @@ const GuardiasPage = () => {
         title='marcan la diferencia'
         description='No es solo un software, es la solución completa que tu empresa necesita para crecer'
       />
-      <ModulosGuardias />
+      <Modulos
+        modulos={MODULOS_GUARDIAS}
+        bgFrom='purple-600'
+        bgVia='blue-600'
+        bgTo='purple-600'
+        colorText='yellow-300'
+        colorDesc='purple-100'
+        bgCard='white/10'
+        borderCard='white/20'
+        pointText='yellow'
+        text='todo en uno'
+        desc='Cada módulo está diseñado específicamente para empresas de seguridad'
+      />
+
       <ClientesGuardias />
       <DemoGuardias />
       <GaleriaGuardias />
       <PrecioGuardias />
+
       <CTAFinal
         scrollToSection={scrollToSection}
-        title='transformar'
-        desc='empresa'
-        textButton='O prueba la demo primero'
         bgFrom='green'
         bgTo='blue'
         colorDesc='green'
+        title='transformar'
+        desc='empresa'
+        textButton='O prueba la demo primero'
         points={CTA_GUARDIAS}
       />
       <Footer text='guardias' />
