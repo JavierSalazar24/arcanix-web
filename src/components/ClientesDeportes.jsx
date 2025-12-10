@@ -1,4 +1,6 @@
 import logo_ducks from '../assets/clientes/ducks.png'
+import logo_toros from '../assets/clientes/toros.png'
+import logo_potros from '../assets/clientes/potros.png'
 
 const clientes = [
   {
@@ -6,6 +8,18 @@ const clientes = [
     description: 'CLUB DEPORTIVO DE FOOTBALL AMERICANO',
     img: logo_ducks,
     url: 'https://www.facebook.com/ducksapodacanorte'
+  },
+  {
+    name: 'CLUB TOROS MFL Oficial',
+    description: 'TOROS DE SAN NICOLAS',
+    img: logo_toros,
+    url: 'https://www.facebook.com/ClubTorosMflOficial'
+  },
+  {
+    name: 'Potros de la Anáhuac',
+    description: 'CLUB DEPORTIVO DE FOOTBALL AMERICANO',
+    img: logo_potros,
+    url: 'https://www.facebook.com/potrosanahuac'
   }
 ]
 
@@ -32,7 +46,7 @@ export const ClientesDeportes = () => {
 
         {/* Grid de logos con categorías */}
         <div className='mb-5 px-20'>
-          <div className='grid justify-center gap-6 grid-cols-[repeat(auto-fit,minmax(280px,500px))]'>
+          <div className='grid justify-center gap-6 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]'>
             {clientes.map((company) => (
               <a
                 key={company.url}

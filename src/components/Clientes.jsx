@@ -1,5 +1,7 @@
-import logo_ducks from '../assets/clientes/ducks.png'
 import logo_dilme from '../assets/clientes/dilme.png'
+import logo_ducks from '../assets/clientes/ducks.png'
+import logo_toros from '../assets/clientes/toros.png'
+import logo_potros from '../assets/clientes/potros.png'
 
 const clientes = [
   {
@@ -14,6 +16,20 @@ const clientes = [
     description: 'CLUB DEPORTIVO DE FOOTBALL AMERICANO',
     img: logo_ducks,
     url: 'https://www.facebook.com/ducksapodacanorte',
+    type: 'Deportes'
+  },
+  {
+    name: 'CLUB TOROS MFL Oficial',
+    description: 'TOROS DE SAN NICOLAS',
+    img: logo_toros,
+    url: 'https://www.facebook.com/ClubTorosMflOficial',
+    type: 'Deportes'
+  },
+  {
+    name: 'Potros de la Anáhuac',
+    description: 'CLUB DEPORTIVO DE FOOTBALL AMERICANO',
+    img: logo_potros,
+    url: 'https://www.facebook.com/potrosanahuac',
     type: 'Deportes'
   }
 ]
